@@ -1,0 +1,77 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;800&display=swap');
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+
+/* share style */
+.btn-primary{
+    border-radius: 8px;
+    background: #FF5400;
+    width: 134px;
+    height: 42px;
+    flex-shrink: 0;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 80px;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    padding-top: 35px;
+}
+header nav ul li{
+    padding-left: 30px;
+}
+header nav ul a{
+    text-decoration: none;
+}
+.header-title img{
+    position: relative;
+    top: 20px;
+}
+.main-section{
+    background:  rgba(0, 0, 0, .6) url(../Images/Rectangle\ 5.png);
+    border-radius: 16px;
+    background-size: cover;
+    height: 600px;
+    width: 90%;
+    background-repeat: no-repeat;
+    margin: 30px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+.main-title{
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 800; 
+    padding-top: 90px;
+}
+.main-content{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.location{
+    background-color: rgba(255, 255, 255, 0.30);
+    opacity: .6;
+    width: 50%;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.place{
+    display: inline-flex;
+    padding: 14px;
+    align-items: flex-start;
+    gap: 54px;
+    border-radius: 8px;
+    background: aliceblue;
+    margin-top: 18px;
+    opacity: 2;
+}
