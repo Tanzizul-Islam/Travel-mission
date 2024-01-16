@@ -34,7 +34,7 @@ header nav ul a{
     top: 20px;
 }
 .main-section{
-    background:  rgba(0, 0, 0, .6) url(../Images/Rectangle\ 5.png);
+    background:  rgba(0, 0, 0, .6) url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     border-radius: 16px;
     background-size: cover;
     height: 600px;
@@ -74,4 +74,323 @@ header nav ul a{
     background: aliceblue;
     margin-top: 18px;
     opacity: 2;
+}
+.popular-Tours{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding-top: 60px;
+}
+.toures-title{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.popular-container{
+margin: 0px 60px
+}
+.popular-container {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.toures-btn{
+    margin-top: 20px;
+    text-align: center;
+    color: #FFF;
+    margin-left: 50px;
+}
+.destination-container{
+    width: 90%;
+    margin: auto;
+}
+.destination{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.destination-title{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.destination p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 10px;
+}
+.destination-item{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+.destination-item img{
+    width: 97%;
+}
+.destination-item h3{
+    position: relative;
+    bottom: 160px;
+    color: #FFF;
+    line-height: 0;
+}
+.destination-item-1{
+    display: flex;
+    gap: 20px;
+}
+.destination-item-1 img{
+    width: 95%;
+}
+.destination-item-1 h3{
+    position: relative;
+    bottom: 160px;
+    padding-left: 150px;
+    color: #FFF;
+    line-height: 0;
+}
+.destination-item-img-1 img{
+    width: 650px;
+    height: 300px;
+    margin-left: 0px;
+}
+.destination-item-img-3 img{
+    width: 396px;
+    height: 286px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.destination-item-img-4 img{
+    width: 505px;
+    height: 286px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.destination-item-2{
+    display: flex;
+    gap: 20px;
+}
+.destination-item-2 img{
+    width: 97%;
+    max-height: 300px;
+}
+.destination-item-img-5 img{
+    width: 520px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.destination-item-img-6 img{
+    width: 793px;
+    height: 300px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+}
+.destination-item-2 h3{
+    position: relative;
+    bottom: 160px;
+    padding-left: 200px;
+    color: #FFF;
+    line-height: 0;
+}
+.Service{
+    text-align: center;
+}
+.Service h3{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.Service h6{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    margin-bottom: 20px;
+
+}
+.card{
+   width: 95%;
+    display: flex;
+    margin: auto;
+}
+
+.card-content{
+width: 660px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+margin-left: 30px;
+}
+.card-content-1{
+width: 660px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+margin-left: 20px;
+}
+.card-content-2{
+    width: 660px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    margin-left: 20px;
+    margin-left: 400px;
+    margin-top: 25px;
+    }
+    .card-icon svg{
+        width: 64px;
+        height: 64px;
+        padding: 30px 0px 10px 32px;
+    }
+    .card-icon h3{
+        color: #131318;
+        font-size: 24px;
+        font-weight: 800;
+        padding: 0px 0px 0px 32px;
+        line-height: 5px;
+    }
+    .card-icon p{
+        color: #5A5A5D;
+        font-size: 16px;
+        width: 500px;
+        font-weight: 400;
+        line-height: 26px;
+        padding-left: 32px
+    }
+    .Place-container{
+        display: flex;
+        width: 92%;
+        margin: auto;
+        padding-top: 70px;
+    }
+    .place-title{
+        margin-right: 40px;
+    }
+.place-title h3{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 20px;
+}
+.place-title p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.place-title ul li{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;  
+    margin-bottom: 20px;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    header nav{
+        flex-direction: column;
+        margin: 10px 15px;
+    }
+    header nav ul{
+        flex-direction: column;
+        padding-top: 15px;
+    }
+    .main-title{
+        padding-top: 40px;
+    }
+    .location{
+        height: auto;
+        width: 80%;
+    }
+    #place{
+        height: 50px;
+        width: 72%;
+    }
+    #select-class{
+        height: 50px;
+        width: 72%;
+    }
+    .location-btn{
+        margin-top: 10px;
+    }
+    .popular-Tours{
+        flex-direction: column;
+        margin: 20px;
+        width: 90%;
+    }
+    .popular-container{
+        margin: 20px;
+        text-align: center;
+    }
+    #toures-img{
+        width: 100%;
+        height: 100%;
+    }
+    .destination-item, .destination-item-1, .destination-item-img-3, .destination-item-2{
+        flex-direction: column;
+        height: 100%;
+        
+    }
+    .destination-item-img-1 img, .destination-item-img-3 img, .destination-item-img-4 img, .destination-item-img-5 img, .destination-item-img-6 img{
+        min-width: 270px;
+        max-width: 310px;
+        margin: auto;
+        padding: auto;
+        gap: 5px;
+        margin-bottom: -25px;
+    }
+    .destination-item-2 h3{
+        padding-left: 100px;
+    }
+    .Service h6{
+        width: 390px;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .card-content, .card-content-1, .card-content-2{
+        width: 340px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .Service h6{
+        font-size: 14px;
+        padding: auto;
+        width: 300px;
+    }
+    .card-icon p{
+        font-size: 14px;
+        padding: auto;
+        width: 300px;
+    }
+    .Place-container{
+        flex-direction: column;
+        margin: auto;
+        padding: 0;
+    }
+    .place-title h3{
+        width: 300px;
+        line-height: 50px;
+    }
+    .place-image img{
+        max-width: 340px;
+        padding-top: 20px;
+    }
+    
 }
