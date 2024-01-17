@@ -134,7 +134,7 @@ margin: 0px 60px
     gap: 20px;
 }
 .destination-item img{
-    width: 97%;
+    width: 90%;
 }
 .destination-item h3{
     position: relative;
@@ -147,7 +147,7 @@ margin: 0px 60px
     gap: 20px;
 }
 .destination-item-1 img{
-    width: 95%;
+    width: 90%;
 }
 .destination-item-1 h3{
     position: relative;
@@ -178,7 +178,7 @@ margin: 0px 60px
     gap: 20px;
 }
 .destination-item-2 img{
-    width: 97%;
+    width: 90%;
     max-height: 300px;
 }
 .destination-item-img-5 img{
@@ -273,7 +273,7 @@ margin-left: 20px;
     }
     .Place-container{
         display: flex;
-        width: 92%;
+        width: 90%;
         margin: auto;
         padding-top: 70px;
     }
@@ -306,7 +306,7 @@ margin-left: 20px;
 }
 .newsletter-container{
     display: flex;
-    width: 92%;
+    width: 90%;
     margin: auto;
     height: 420px;
     margin-top: 50px;
@@ -353,26 +353,28 @@ margin-left: 20px;
     width: 830px;
     height: 420px;
 }
-/* .save-up h4{
+.save-up h4{
     width: 224px;
     height: 80px;
-    transform: rotate(-19.628deg);
+    transform: rotate(-30.628deg);
     border-radius: 16px;
     background: #FF5400;
     position: relative;
-    bottom: 135px;
-    left: 600px;
+    bottom: 170px;
+    left: 645px;
     color: #FFF;
-} */
-/* .save-up p{
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+} 
+.save-up p{
     color: #FFF;
     text-align: center;
-    font-family: Mulish;
-    font-size: 24px;
-    font-style: normal;
+    font-size: 20px;
     font-weight: 400;
-    line-height: normal;
-} */
+    margin: 0px;
+    padding-top: 10px;
+}
 
 .footer-container{
     text-align: center;
@@ -416,7 +418,7 @@ margin-left: 20px;
 
 
 @media screen and (max-width: 576px) {
-    header nav{
+   header nav{
         flex-direction: column;
         margin: 10px 15px;
     }
@@ -458,7 +460,7 @@ margin-left: 20px;
     .destination-item, .destination-item-1, .destination-item-img-3, .destination-item-2{
         flex-direction: column;
         height: 100%;
-        
+        margin: auto;
     }
     .destination-item-img-1 img, .destination-item-img-3 img, .destination-item-img-4 img, .destination-item-img-5 img, .destination-item-img-6 img{
         min-width: 270px;
@@ -516,6 +518,21 @@ margin-left: 20px;
         height: 300px;
         margin: auto;
         padding-top: 30px;
+    }
+    .save-up h4{
+        width: 170px;
+        height: 60px;
+        transform: rotate(-30.628deg);
+        border-radius: 16px;
+        background: #FF5400;
+        position: relative;
+        bottom: 128px;
+        left: 161px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .save-up p{
+        line-height: 15px;
     }
     .newsletter-title p{
         width: 280px;
