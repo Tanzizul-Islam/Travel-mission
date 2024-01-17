@@ -61,10 +61,11 @@ header nav ul a{
 }
 .location{
     background-color: rgba(255, 255, 255, 0.30);
-    opacity: .6;
+    opacity: .9;
     width: 50%;
     height: 80px;
     margin: 0 auto;
+    padding: 5px;
     border-radius: 20px;
 }
 .place{
@@ -105,7 +106,45 @@ margin: 0px 60px
     text-align: center;
     color: #FFF;
     margin-left: 50px;
+    font-size: 17px;
 }
+
+.guides-container{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.guides-title{
+    text-align: center;
+}
+.guides-title h3{
+    font-size: 40px;
+    color: #131318;
+    font-weight: 800;
+    margin: 50px 0px 20px 0px;
+
+}
+.guides-title p{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    margin-bottom: 30px;
+}
+.guides-container img{
+    margin-right: 20px;
+    border-radius: 20px;
+}
+.guides-container h4{
+    text-align: center;
+}
+
+
+
+
+
 .destination-container{
     width: 90%;
     margin: auto;
@@ -302,7 +341,7 @@ margin-left: 20px;
     margin-bottom: 20px;
 }
 .place-btn{
-    font-size: 18px;
+    font-size: 17px;
 }
 .newsletter-container{
     display: flex;
@@ -453,6 +492,20 @@ margin-left: 20px;
         margin: 20px;
         text-align: center;
     }
+    .guides-container{
+        flex-direction: column;
+        margin: auto;
+    }
+    .toures-title{
+        line-height: 40px;
+    }
+    .guides-container img{
+        max-width: 320px;
+        margin: auto;
+        padding: auto;
+    }
+
+
     #toures-img{
         width: 100%;
         height: 100%;
